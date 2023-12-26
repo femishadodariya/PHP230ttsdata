@@ -1,0 +1,206 @@
+                                   OOPS
+
+Q-1:-What Is Object Oriented Programming?
+=>    Oops stand for object oriented programming structure language
+=>    php 5 and php 7 and php 8 support oops concept
+
+
+
+
+Q-2:-What Are Properties Of Object Oriented Systems?
+=> class , objects , encapsulation , inheritance , abstraction , and polymorphism
+
+
+
+
+Q-3:-What Is Difference Between Class And Interface?
+=> class:- A class is group of member and its member function i.e clled class. 
+=> Interface:- Interface is support just like multiple inheritance.
+
+
+                         Interface access property by its another class using implement
+
+Q-4:-What Is Overloading?
+=> Overloaded functions enable you to supply different semantics for a function, depending on the types and number of its arguments.
+
+
+
+
+
+Q-5:-What Is T_PAAMAYIM_NEKUDOTAYIM (Scope Resolution Operator (::) with  Example
+=> (::) it is static method .
+=> it used to access property of class without creating object.
+
+Example:-
+Class A
+{
+            Public static function name()
+         {
+                  echo  “my name is femish”;
+         }
+}
+A::name();
+
+
+
+
+Q-6:-What are the differences between abstract classes and interfaces?
+=> An abstract class contains an abstract keyword on the declaration whereas an Interface is a sketch that is used to implement a class.
+
+
+
+Q-7:-Define Constructor and Destructor?
+=> constructor:- A constructor allows an object to initialize some of its value before it is used. 
+=> Destructor:- A destructor allows an object to execute some code at the time of its destruction.
+
+
+
+Q-8:-How to Load Classes in PHP?
+=> class is load by “new” object.
+
+
+
+Q-9:-How to Call Parent Constructor?
+=> parent :: __construct()
+
+
+
+Q-10:-Are Parent Constructor Called Implicitly When Create An ObjectOf Class?
+=> Parent constructors are not called implicitly if the child class defines a constructor.
+
+
+
+
+Q-11:-What Happen, If Constructor Is Defined As Private Or Protected?
+=> private constructor:- When a constructor is defined as private, it can only be called from within the class itself. Instances of the class cannot be created from outside the class using the “new” keyword.
+=> protected constructor:- When a constructor is defined as protected, it can be called from within the class and its subclasses. Instances of the class cannot be created from outside the class hierarchy using the “new” keyword.
+
+
+
+
+
+Q-12:-What are PHP Magic Methods/Functions? List them Write program for Static
+Keyword in PHP?
+__construct()
+__destruct()
+__call($fun, $arg)
+__callStatic($fun, $arg)
+__get($property)
+__set($property, $value)
+__isset($content)
+__unset($content)
+__sleep()
+__wakeup()
+__toString()
+__invoke()
+__set_state($array)
+__clone()
+__debugInfo()
+
+
+
+
+
+
+
+
+Q-13:-Create multiple Traits and use it in to a single class?
+=> trait A
+{
+      Public function A()
+     {
+          echo “my name is femish”;
+     }
+} 
+Trait B
+{
+       Public function B()
+       {
+           echo “my surname is adodariya”; 
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Q-14:-Write PHP Script of Object Iteration?
+=> class A
+{
+      Public function name()
+       {
+            echo “my name is femish”;
+       }
+}
+$obj=new A;
+$obj->name();
+
+
+
+Q-15:-Use of The $this keyword
+=> $this is a pseudo variable.
+Use:-
+Class A
+{
+Public $name=”femish”;
+Publict function n()
+{
+echo $this->name;
+}
+}
+$obj= new A;
+$obj->n(); 
+
+
+                                   JQUERY
+
+
+Q1:- what is jquery.
+=> jquery is a client side scripting language.
+
+
+
+
+Q2:- How are JavaScript and jQuery different?
+=> Java script:- JavaScript is a programming language.
+=> jquery:-       jQuery is a library that consists of JavaScript code.
+
+
+
+
+Q3:- Which is the starting point of code execution in jQuery?
+=> $(document).ready(function(){
+});
+
+
+
+
+Q4:- Document Load Vs Window. Load() jQuery
+=>  $(window).load()s
+
+
+
+
+Q5:- What is the difference between prop and attr?
+=> prop():- method provides a way to explicitly retrieve property values.     
+      attr():- retrieves attributes.
+
+
+
+
+Q6:- Explain Difference Between JQuery And JavaScript?
+=> JavaScript is an independent language and can exist on its own. JQuery is a JavaScript library.
+
+
+
+
+
+
+

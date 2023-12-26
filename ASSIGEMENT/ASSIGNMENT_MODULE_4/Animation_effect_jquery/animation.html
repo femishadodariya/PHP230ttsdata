@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            // show
+            $("#show").click(function(){
+                $("#p").show(4000);
+            })
+            // hide
+            $("#hide").click(function(){
+                $("#p").hide("slow")
+            })
+            // toggle
+            $("#toggle").click(function(){
+                $("#p").toggle()
+            })
+             
+            // slide toggle
+            
+            $("#a").click(function(){
+                $("#p1").slideToggle()
+            })
+               
+            // fade toggle
+            $("#fd").click(function(){
+                $("#p1").fadeToggle()
+            })
+
+        });
+    </script>
+</head>
+<body>
+<div style="background-color: aqua; width: 25%; margin-left: 35%;">
+    <p style="display: none; padding: 20px;" id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam doloribus recusandae obcaecati reprehenderit nostrum ratione eos. Iusto aut ut at impedit iure, neque facere optio, ducimus nostrum, tempora placeat!</p>
+</div>
+
+    <input type="button" id="show" value="show">
+    <input type="button" id="hide" value="hide">
+    <input type="button" id="toggle" value="toggle">
+
+    <!-- animation -->
+
+    <div style="background-color: black; color: white; width: 25%; margin-left: 40%;">
+        <p style="padding: 20px; display: none;" id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, eos. Iusto itaque explicabo aperiam quia vitae delectus, veniam perferendis iure. Vitae quae odio ut dolore dicta repellat nihil nulla distinctio!</p>
+    </div>
+
+    <input type="button" id="a" value="animation" style="margin-top: 100px;">
+    <input type="button" id="fd" value="fade toggle" style="margin-top: 100px;">
+</body>
+</html>

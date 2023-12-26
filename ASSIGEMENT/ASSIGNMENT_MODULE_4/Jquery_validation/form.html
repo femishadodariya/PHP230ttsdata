@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="assets/css/gray.css">
+    <!-- jquery files -->
+    
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script src="assets/js/jquery.bvalidator.min.js"></script>
+    <script src="assets/js/default.min.js"></script>
+    <script src="assets/js/gray.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#a").bValidator()
+        })
+    </script>
+
+    <style>
+        center{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form method="post" id="a">
+    <input type="text" name="name" placeholder="name" data-bValidator="required"><br><br>
+    <input type="text" name="phone" placeholder="phone" data-bValidator="required"><br><br>
+    <input type="text" name="email" placeholder="email" data-bValidator="required,email"><br><br>
+    <input type="text" name="year" placeholder="year" data-bValidator="required"><br><br>
+    <input type="text" name="country" placeholder="country" data-bValidator="required"><br><br>
+    <input type="submit" name="btn" value="sand">
+        </form>
+    </center>
+</body>
+</html>
