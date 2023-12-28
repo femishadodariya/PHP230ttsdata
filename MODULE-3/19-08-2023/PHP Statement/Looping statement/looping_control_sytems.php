@@ -1,6 +1,0 @@
-<?php 
-
-// break
-// continue
-
-?>
