@@ -1,0 +1,18 @@
+div li a{
+    color: white;
+    text-decoration: none;
+   
+   
+}
+.nav li a{
+    color: white;
+
+}
+.dropdown{
+    margin-right: 100px;
+    
+}
+.dropdown-menu li a {
+   color: black;
+}
+
